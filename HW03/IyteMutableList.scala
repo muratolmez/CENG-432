@@ -44,5 +44,5 @@ override def toString() : String = {
 
 object IyteMutableList {
 	
-	def apply : IyteMutableList = new IyteMutableList()
+	def apply() : IyteMutableList = new IyteMutableList()
 }
