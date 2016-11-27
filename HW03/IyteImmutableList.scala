@@ -35,5 +35,4 @@ case class Cons(head: Int, tail: IyteImmutableList) extends IyteImmutableList{
 
 object IyteImmutableList
 {
-	def apply() = Nil
-}
+def apply() : IyteImmutableList = Nil}
